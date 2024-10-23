@@ -1,7 +1,10 @@
 .home__container {
     row-gap: 7rem;
 }
-
+.home__section
+{
+    padding-top: 6vh;
+}
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -36,6 +39,7 @@
 }
 
 .home__subtitle {
+    margin-left: 1em;
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
@@ -52,14 +56,23 @@
     left: 0;
     top: 1rem;
 }
+.home__subtitle::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    top: 1rem;
+}
 
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    text-align: center;
 }
 
 .home__img {
-    background: url(../../src/assets/profile-pic.png);
+    background: url(../../src/assets/profile_pic_copy.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +117,7 @@
 }
 
 .home__scroll-name {
-    color: var(--title-color);
+    color: gray;
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -139,6 +152,7 @@
     .home__description {
         max-width: initial;
         margin-bottom: var(--mb-2-5);
+        text-align: center;
     }
 
     .home__img {

@@ -4,7 +4,7 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Soumyajit Basak
+        <h1 className="home__title">Mehul Dhingra
         <svg
                   width="36"
                   height="36"
@@ -55,9 +55,9 @@ const Data = () => {
                   ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">Jr.Software Developer</h3>
-        <p className="home__description">I'm a creative developer based in Bengaluru, and I'm very passionate and dedicated to my work.</p>
-
+        <h3 className="home__subtitle">Software Developer</h3>
+        {/* <h3 className="home__descrption">Full Stack Developer</h3> */}
+        <p className="home__description">Passionate <b>Full Stack Web Developer</b> based in Gurgaon. I craft dynamic, high-performance web applications, blending front-end interactivity with back-end logic to deliver efficient, fast, and functional solutions.</p>
         <a href="#contact" className="button button--flex">
             Say Hello
             <svg
